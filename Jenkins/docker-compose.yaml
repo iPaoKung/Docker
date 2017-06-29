@@ -1,0 +1,13 @@
+jenkins:
+  user: root
+  image: sal2apao/jenkins-docker:1
+  container_name: jenkins
+  environment:
+    - "TZ=ICT-7"
+  volumes:
+#    - /var/run/docker.sock:/var/run/docker.sock
+    - ./jenkins_home:/var/jenkins_home
+  ports:
+    - 9000:8080
+    - 50000:50000
+  privileged: true

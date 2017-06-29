@@ -1,0 +1,10 @@
+global:
+    scrape_interval: 5s
+    external_labels:
+      monitor: 'docker-monitor'
+
+scrape_configs:
+  - job_name: 'monitor'
+    static_configs:
+     # - targets: ['localhost:9090','cadvisor:8080','node-exporter:9100','192.168.56.101:8080','192.168.56.101:9100']
+      - targets: ['localhost:9090','192.168.56.101:8080','192.168.56.102:8080','192.168.56.101:9100','192.168.56.102:9100']

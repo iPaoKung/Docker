@@ -1,0 +1,9 @@
+version: '2'
+services:
+     webapp_proxy:
+         image: nginx:webapp
+         container_name: webapp_proxy
+         ports:
+              - 4433:443
+         volumes:
+              - ./logs:/var/log/nginx

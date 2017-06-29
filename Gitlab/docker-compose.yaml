@@ -1,0 +1,29 @@
+version: "2"
+services:
+        gitlab:
+                image: 'gitlab/gitlab-ce:9.3.0-ce.0'
+                hostname: 'mwregistry.truecorp.th'
+                container_name: gitlab
+                ports:
+                        - "80:80"
+                        - "443:443"
+                        - "2222:22"
+                        - "5000:5000"
+                volumes:
+                        - "./config:/etc/gitlab"
+                        - "./logs:/var/log/gitlab"
+                        - "./data:/var/opt/gitlab"
+                        - "./certs:/var/opt/gitlab/gitlab-rails/etc/"
+                        - "./certs:/etc/gitlab/cert"
+#                        - "./cert:/etc/gitlab/trusted-certs"
+#                        - "./config/etc/pam.d/sshd:/etc/pam.d/sshd"
+                environment:
+                        GITLAB_OMNIBUS_CONFIG: |
+                                external_url 'http://mwregistry.truecorp.th'
+                                gitlab_rails['gitlab_shell_ssh_port'] = 2222
+                                gitlab_rails['time_zone'] = 'Asia/Bangkok'
+                                registry_external_url 'https://mwregistry.truecorp.th'
+                                registry_nginx['ssl_certificate'] = "/etc/gitlab/cert/domain.crt"
+                                registry_nginx['ssl_certificate_key'] = "/etc/gitlab/cert/domain.key"
+                                
+                restart: "always"

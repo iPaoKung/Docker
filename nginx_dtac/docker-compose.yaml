@@ -1,0 +1,24 @@
+on: '2'
+services:
+     mrtrgw:
+         image: docker-hub.dtac.co.th/docker-registry/mrtrgw:69
+         container_name: mrtrgw
+         restart: always
+         volumes:
+              - ../logs:/var/log/nginx
+              - ../sbin/mrtrgw:/sbin
+         ports:
+              - 7000:7000
+         environment:
+              - SET_CONTAINER_TIMEZONE=true
+              - CONTAINER_TIMEZONE=Asia/Bangkok
+              - TZ=ICT-7
+         logging:
+             driver: "json-file"
+             options:
+                 max-size: 100m
+                 max-file: "5"
+networks:
+     default:
+         external:
+              name: dtacone
