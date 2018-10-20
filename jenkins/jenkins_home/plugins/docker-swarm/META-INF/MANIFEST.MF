@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: sgaddipati
+Build-Jdk: 1.8.0_60
+Extension-Name: docker-swarm
+Specification-Title: Cloud plugin for launching single use agent as a 
+ service on docker swarm.
+Implementation-Title: docker-swarm
+Implementation-Version: 1.5
+Plugin-Class: org.jenkinsci.plugins.docker.swarm.DockerSwarmPlugin
+Group-Id: org.jenkins-ci.plugins
+Short-Name: docker-swarm
+Long-Name: Docker Swarm Plugin
+Url: https://wiki.jenkins.io/display/JENKINS/Docker+Swarm+Plugin
+Plugin-Version: 1.5
+Hudson-Version: 2.76
+Jenkins-Version: 2.76
+Plugin-Dependencies: durable-task:1.16
+Plugin-Developers: 
+

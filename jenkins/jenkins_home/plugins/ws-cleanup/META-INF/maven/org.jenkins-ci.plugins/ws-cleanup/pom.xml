@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
+
   <parent>
     <groupId>org.jenkins-ci.plugins</groupId>
     <artifactId>plugin</artifactId>
@@ -8,19 +9,18 @@
   </parent>
 
   <artifactId>ws-cleanup</artifactId>
+  <version>0.35</version>
   <packaging>hpi</packaging>
-  <name>Jenkins Workspace Cleanup Plugin</name>
-  <version>0.34</version>
-  <url>http://wiki.jenkins-ci.org/display/JENKINS/Workspace+Cleanup+Plugin</url>
 
-  <properties>
-    <jenkins.version>1.642.1</jenkins.version>
-    <java.level>7</java.level>
-    <workflow-job.version>2.4</workflow-job.version>
-    <workflow-cps.version>2.10</workflow-cps.version>
-    <workflow-basic-steps.version>2.1</workflow-basic-steps.version>
-    <workflow-durable-task-step.version>2.4</workflow-durable-task-step.version>
-  </properties>
+  <name>Jenkins Workspace Cleanup Plugin</name>
+  <url>http://wiki.jenkins-ci.org/display/JENKINS/Workspace+Cleanup+Plugin</url>
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
 
   <developers>
     <developer>
@@ -33,8 +33,17 @@
     <connection>scm:git:git://github.com/jenkinsci/ws-cleanup-plugin.git</connection>
     <developerConnection>scm:git:git@github.com:jenkinsci/ws-cleanup-plugin.git</developerConnection>
     <url>https://github.com/jenkinsci/ws-cleanup-plugin</url>
-    <tag>ws-cleanup-0.34</tag>
+    <tag>ws-cleanup-0.35</tag>
   </scm>
+
+  <properties>
+    <jenkins.version>1.642.1</jenkins.version>
+    <java.level>8</java.level>
+    <workflow-job.version>2.4</workflow-job.version>
+    <workflow-cps.version>2.10</workflow-cps.version>
+    <workflow-basic-steps.version>2.1</workflow-basic-steps.version>
+    <workflow-durable-task-step.version>2.4</workflow-durable-task-step.version>
+  </properties>
 
   <dependencies>
     <dependency>
@@ -96,29 +105,12 @@
     </dependency>
   </dependencies>
 
-  <build>
-    <plugins>
-      <plugin>
-        <artifactId>maven-surefire-plugin</artifactId>
-        <executions>
-          <execution>
-              <id>default-test</id>
-              <configuration>
-                <argLine>-XX:MaxPermSize=256m</argLine>
-              </configuration>
-          </execution>
-        </executions>
-      </plugin>
-    </plugins>
-  </build>
-
   <repositories>
     <repository>
       <id>repo.jenkins-ci.org</id>
       <url>http://repo.jenkins-ci.org/public/</url>
     </repository>
   </repositories>
-
   <pluginRepositories>
     <pluginRepository>
       <id>repo.jenkins-ci.org</id>

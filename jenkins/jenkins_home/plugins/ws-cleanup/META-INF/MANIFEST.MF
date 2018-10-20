@@ -1,17 +1,17 @@
 Manifest-Version: 1.0
 Archiver-Version: Plexus Archiver
 Created-By: Apache Maven
-Built-By: ogondza
-Build-Jdk: 1.8.0_131
+Built-By: pjanouse
+Build-Jdk: 1.8.0_45
 Extension-Name: ws-cleanup
 Specification-Title: The Jenkins Plugins Parent POM Project
 Implementation-Title: ws-cleanup
-Implementation-Version: 0.34
+Implementation-Version: 0.35
 Group-Id: org.jenkins-ci.plugins
 Short-Name: ws-cleanup
 Long-Name: Jenkins Workspace Cleanup Plugin
 Url: http://wiki.jenkins-ci.org/display/JENKINS/Workspace+Cleanup+Plugin
-Plugin-Version: 0.34
+Plugin-Version: 0.35
 Hudson-Version: 1.642.1
 Jenkins-Version: 1.642.1
 Plugin-Dependencies: workflow-durable-task-step:2.4,matrix-project:1.7

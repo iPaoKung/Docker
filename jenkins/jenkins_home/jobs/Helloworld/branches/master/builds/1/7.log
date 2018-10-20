@@ -1,0 +1,31 @@
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://github.com/iPaoKung/Helloworld.git
+ > git init /var/jenkins_home/workspace/Helloworld_master-XC5IPKJA2DFWITGLXYTS37VQDFFZA4U7SC7DGWEIYXWSMFVZ35MQ # timeout=10
+Fetching upstream changes from https://github.com/iPaoKung/Helloworld.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials GitHub Access Token
+ > git fetch --no-tags --progress https://github.com/iPaoKung/Helloworld.git +refs/heads/master:refs/remotes/origin/master
+ > git config remote.origin.url https://github.com/iPaoKung/Helloworld.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/master:refs/remotes/origin/master # timeout=10
+ > git config remote.origin.url https://github.com/iPaoKung/Helloworld.git # timeout=10
+Cleaning workspace
+ > git rev-parse --verify HEAD # timeout=10
+No valid HEAD. Skipping the resetting
+ > git clean -fdx # timeout=10
+Fetching without tags
+Fetching upstream changes from https://github.com/iPaoKung/Helloworld.git
+using GIT_ASKPASS to set credentials GitHub Access Token
+ > git fetch --no-tags --progress https://github.com/iPaoKung/Helloworld.git +refs/heads/master:refs/remotes/origin/master
+Checking out Revision 4c24286a7e33ae398192b02d3b68f4577ff2e1d4 (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 4c24286a7e33ae398192b02d3b68f4577ff2e1d4
+ > git branch -a -v --no-abbrev # timeout=10
+ > git checkout -b master 4c24286a7e33ae398192b02d3b68f4577ff2e1d4
+Commit message: "Added Jenkinsfile"
+First time build. Skipping changelog.
+Cleaning workspace
+ > git rev-parse --verify HEAD # timeout=10
+Resetting working tree
+ > git reset --hard # timeout=10
+ > git clean -fdx # timeout=10

@@ -1,0 +1,11 @@
+commit a37e08764dada6a1bcfcb25c6bca8cc010848617
+tree de13c10885ad47b584d3578db9247fda3af69317
+parent 9a5315766bd26cd856be1e6a3a8ad581fbb41f67
+author iPaoKung <p.watchara@gmail.com> 2018-10-12 13:32:07 +0700
+committer iPaoKung <p.watchara@gmail.com> 2018-10-12 13:32:07 +0700
+
+    Added Jenkinsfile
+
+
+
+:100644 100644 967adcaa376511da786b25cdce36db5f7dcbe32e d7d13c02d4b1f4aac031f27abf409543796c2e78 M	Jenkinsfile

@@ -1,0 +1,15 @@
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/iPaoKung/Helloworld.git # timeout=10
+Fetching upstream changes from https://github.com/iPaoKung/Helloworld.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/iPaoKung/Helloworld.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 4c24286a7e33ae398192b02d3b68f4577ff2e1d4 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 4c24286a7e33ae398192b02d3b68f4577ff2e1d4
+ > git branch -a -v --no-abbrev # timeout=10
+ > git branch -D master # timeout=10
+ > git checkout -b master 4c24286a7e33ae398192b02d3b68f4577ff2e1d4
+Commit message: "Added Jenkinsfile"

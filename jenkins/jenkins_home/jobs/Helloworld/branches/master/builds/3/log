@@ -1,0 +1,95 @@
+Branch indexing
+[8mha:////4OxWjiwkg8FT50QUni27oPhbvVLdErgN39Qr7WaACtzrAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHRa2s/1ewH1Lk4PjgAAAA==[0mConnecting to https://api.github.com using admin/****** (GitHub Access Token)
+Obtained Jenkinsfile from a37e08764dada6a1bcfcb25c6bca8cc010848617
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4LVAKSSvqdDn+9ddqu3N1LJsuxrgYGgzLxgSdeAsfMNAAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+Running on [8mha:////4ENjDS4UFb9EA8K6gHi+UzvNl4DqYtUVi+lSWKHUhPpOAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/workspace/Helloworld_master-XC5IPKJA2DFWITGLXYTS37VQDFFZA4U7SC7DGWEIYXWSMFVZ35MQ
+[8mha:////4LVAKSSvqdDn+9ddqu3N1LJsuxrgYGgzLxgSdeAsfMNAAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4LVAKSSvqdDn+9ddqu3N1LJsuxrgYGgzLxgSdeAsfMNAAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4LVAKSSvqdDn+9ddqu3N1LJsuxrgYGgzLxgSdeAsfMNAAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4LVAKSSvqdDn+9ddqu3N1LJsuxrgYGgzLxgSdeAsfMNAAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] checkout
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/iPaoKung/Helloworld.git # timeout=10
+Cleaning workspace
+ > git rev-parse --verify HEAD # timeout=10
+Resetting working tree
+ > git reset --hard # timeout=10
+ > git clean -fdx # timeout=10
+Fetching without tags
+Fetching upstream changes from https://github.com/iPaoKung/Helloworld.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials GitHub Access Token
+ > git fetch --no-tags --progress https://github.com/iPaoKung/Helloworld.git +refs/heads/master:refs/remotes/origin/master
+Checking out Revision a37e08764dada6a1bcfcb25c6bca8cc010848617 (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f a37e08764dada6a1bcfcb25c6bca8cc010848617
+ > git branch -a -v --no-abbrev # timeout=10
+ > git branch -D master # timeout=10
+ > git checkout -b master a37e08764dada6a1bcfcb25c6bca8cc010848617
+Commit message: "Added Jenkinsfile"
+ > git rev-list --no-walk 9a5315766bd26cd856be1e6a3a8ad581fbb41f67 # timeout=10
+Cleaning workspace
+ > git rev-parse --verify HEAD # timeout=10
+Resetting working tree
+ > git reset --hard # timeout=10
+ > git clean -fdx # timeout=10
+[8mha:////4LVAKSSvqdDn+9ddqu3N1LJsuxrgYGgzLxgSdeAsfMNAAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4LVAKSSvqdDn+9ddqu3N1LJsuxrgYGgzLxgSdeAsfMNAAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4LVAKSSvqdDn+9ddqu3N1LJsuxrgYGgzLxgSdeAsfMNAAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withEnv
+[8mha:////4LVAKSSvqdDn+9ddqu3N1LJsuxrgYGgzLxgSdeAsfMNAAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4LVAKSSvqdDn+9ddqu3N1LJsuxrgYGgzLxgSdeAsfMNAAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4LVAKSSvqdDn+9ddqu3N1LJsuxrgYGgzLxgSdeAsfMNAAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Build Steps)
+[8mha:////4LVAKSSvqdDn+9ddqu3N1LJsuxrgYGgzLxgSdeAsfMNAAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] parallel
+[8mha:////4LVAKSSvqdDn+9ddqu3N1LJsuxrgYGgzLxgSdeAsfMNAAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [Pull Code Step] { (Branch: Pull Code Step)
+[8mha:////4LVAKSSvqdDn+9ddqu3N1LJsuxrgYGgzLxgSdeAsfMNAAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [Build Code Step] { (Branch: Build Code Step)
+[8mha:////4LVAKSSvqdDn+9ddqu3N1LJsuxrgYGgzLxgSdeAsfMNAAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [Pull Code Step] stage
+[8mha:////4LVAKSSvqdDn+9ddqu3N1LJsuxrgYGgzLxgSdeAsfMNAAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [Pull Code Step] { (Pull Code Step)
+[8mha:////4LVAKSSvqdDn+9ddqu3N1LJsuxrgYGgzLxgSdeAsfMNAAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [Build Code Step] stage
+[8mha:////4LVAKSSvqdDn+9ddqu3N1LJsuxrgYGgzLxgSdeAsfMNAAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [Build Code Step] { (Build Code Step)
+[8mha:////4LVAKSSvqdDn+9ddqu3N1LJsuxrgYGgzLxgSdeAsfMNAAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [Pull Code Step] git
+[Pull Code Step]  > git rev-parse --is-inside-work-tree # timeout=10
+[Pull Code Step] Fetching changes from the remote Git repository
+[Pull Code Step]  > git config remote.origin.url https://github.com/iPaoKung/Helloworld.git # timeout=10
+[Pull Code Step] Fetching upstream changes from https://github.com/iPaoKung/Helloworld.git
+[Pull Code Step]  > git --version # timeout=10
+[8mha:////4LVAKSSvqdDn+9ddqu3N1LJsuxrgYGgzLxgSdeAsfMNAAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [Build Code Step] sh
+[Build Code Step] [Helloworld_master-XC5IPKJA2DFWITGLXYTS37VQDFFZA4U7SC7DGWEIYXWSMFVZ35MQ] Running shell script
+[Build Code Step] + echo Hello World
+[Build Code Step] Hello World
+[8mha:////4LVAKSSvqdDn+9ddqu3N1LJsuxrgYGgzLxgSdeAsfMNAAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [Build Code Step] }
+[Pull Code Step]  > git fetch --tags --progress https://github.com/iPaoKung/Helloworld.git +refs/heads/*:refs/remotes/origin/*
+[8mha:////4LVAKSSvqdDn+9ddqu3N1LJsuxrgYGgzLxgSdeAsfMNAAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [Build Code Step] // stage
+[8mha:////4LVAKSSvqdDn+9ddqu3N1LJsuxrgYGgzLxgSdeAsfMNAAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [Build Code Step] }
+[Pull Code Step]  > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+[Pull Code Step]  > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+[Pull Code Step] Checking out Revision a37e08764dada6a1bcfcb25c6bca8cc010848617 (refs/remotes/origin/master)
+[Pull Code Step]  > git config core.sparsecheckout # timeout=10
+[Pull Code Step]  > git checkout -f a37e08764dada6a1bcfcb25c6bca8cc010848617
+[Pull Code Step]  > git branch -a -v --no-abbrev # timeout=10
+[Pull Code Step]  > git branch -D master # timeout=10
+[Pull Code Step]  > git checkout -b master a37e08764dada6a1bcfcb25c6bca8cc010848617
+[Pull Code Step] Commit message: "Added Jenkinsfile"
+[8mha:////4LVAKSSvqdDn+9ddqu3N1LJsuxrgYGgzLxgSdeAsfMNAAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [Pull Code Step] }
+[8mha:////4LVAKSSvqdDn+9ddqu3N1LJsuxrgYGgzLxgSdeAsfMNAAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [Pull Code Step] // stage
+[8mha:////4LVAKSSvqdDn+9ddqu3N1LJsuxrgYGgzLxgSdeAsfMNAAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [Pull Code Step] }
+[8mha:////4LVAKSSvqdDn+9ddqu3N1LJsuxrgYGgzLxgSdeAsfMNAAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // parallel
+[8mha:////4LVAKSSvqdDn+9ddqu3N1LJsuxrgYGgzLxgSdeAsfMNAAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4LVAKSSvqdDn+9ddqu3N1LJsuxrgYGgzLxgSdeAsfMNAAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4LVAKSSvqdDn+9ddqu3N1LJsuxrgYGgzLxgSdeAsfMNAAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4LVAKSSvqdDn+9ddqu3N1LJsuxrgYGgzLxgSdeAsfMNAAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Build Image)
+[8mha:////4LVAKSSvqdDn+9ddqu3N1LJsuxrgYGgzLxgSdeAsfMNAAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[Helloworld_master-XC5IPKJA2DFWITGLXYTS37VQDFFZA4U7SC7DGWEIYXWSMFVZ35MQ] Running shell script
++ echo docker build -t bababa
+docker build -t bababa
+[8mha:////4LVAKSSvqdDn+9ddqu3N1LJsuxrgYGgzLxgSdeAsfMNAAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4LVAKSSvqdDn+9ddqu3N1LJsuxrgYGgzLxgSdeAsfMNAAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4LVAKSSvqdDn+9ddqu3N1LJsuxrgYGgzLxgSdeAsfMNAAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4LVAKSSvqdDn+9ddqu3N1LJsuxrgYGgzLxgSdeAsfMNAAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withEnv
+[8mha:////4LVAKSSvqdDn+9ddqu3N1LJsuxrgYGgzLxgSdeAsfMNAAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4LVAKSSvqdDn+9ddqu3N1LJsuxrgYGgzLxgSdeAsfMNAAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
+[8mha:////4LVAKSSvqdDn+9ddqu3N1LJsuxrgYGgzLxgSdeAsfMNAAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] End of Pipeline
+
+GitHub has been notified of this commit’s build result
+
+Finished: SUCCESS

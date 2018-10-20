@@ -1,0 +1,16 @@
+Started by user [8mha:////4CDw79IZGtoXv8wNgyOj3AJaih2IN7OgC+CmW5IXowDPAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZu/dLi1CL9xJTczDwAEmIUecAAAAA=[0mWatcharaPh
+java.io.FileNotFoundException
+	at jenkins.plugins.git.GitSCMFile$3.invoke(GitSCMFile.java:167)
+	at jenkins.plugins.git.GitSCMFile$3.invoke(GitSCMFile.java:159)
+	at jenkins.plugins.git.GitSCMFileSystem$3.invoke(GitSCMFileSystem.java:193)
+	at org.jenkinsci.plugins.gitclient.AbstractGitAPIImpl.withRepository(AbstractGitAPIImpl.java:29)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.withRepository(CliGitAPIImpl.java:72)
+	at jenkins.plugins.git.GitSCMFileSystem.invoke(GitSCMFileSystem.java:189)
+	at jenkins.plugins.git.GitSCMFile.content(GitSCMFile.java:159)
+	at jenkins.scm.api.SCMFile.contentAsString(SCMFile.java:338)
+	at org.jenkinsci.plugins.workflow.cps.CpsScmFlowDefinition.create(CpsScmFlowDefinition.java:110)
+	at org.jenkinsci.plugins.workflow.cps.CpsScmFlowDefinition.create(CpsScmFlowDefinition.java:67)
+	at org.jenkinsci.plugins.workflow.job.WorkflowRun.run(WorkflowRun.java:303)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:429)
+Finished: FAILURE

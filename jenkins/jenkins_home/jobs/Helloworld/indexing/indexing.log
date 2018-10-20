@@ -1,0 +1,27 @@
+Started by user [8mha:////4CDw79IZGtoXv8wNgyOj3AJaih2IN7OgC+CmW5IXowDPAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZu/dLi1CL9xJTczDwAEmIUecAAAAA=[0mWatcharaPh
+[Fri Oct 12 06:32:08 UTC 2018] Starting branch indexing...
+[8mha:////4J+xO4R2H59WCnBDN8jxXhSd5yJ6c68+PwmBijliSZKwAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHRa2s8VVgCxrtMzjgAAAA==[0mConnecting to https://api.github.com using admin/****** (GitHub Access Token)
+Examining [8mha:////4OPlpCJgQtf+/wO6OvHTKypoQEDckhXVinurFSwFbo+0AAAApR+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMgQLmFQyygpKSi20tdPzyzJKE0C6srVzwxIzPcuBRrqkZqTk1+eX5STAgBse2VxqwAAAA==[0miPaoKung/Helloworld
+
+  Checking branches...
+
+  Getting remote branches...
+
+    Checking branch [8mha:////4IeJzEYhQFL/F/wXGEa3l8li3xLhCCN+ea5KY+4XP+pXAAAAsB+LCAAAAAAAAP9dzLENwjAQBdAjiAxAiZghligoQKlogogQEhMYcnIMjm2dzxDWYA1oGIJx2IGgdPzm/+a/5wdGgWBaxyo4mx2dDc5gVtw8ktH2vHWM8/zxyu/+nUCyhtSgVVyXMIxkGMblSV6kMNIqsWfSVi1bgskft+r7h0GfQQLQ+m6kDLOa2YeFEEpzHQ/dqxF6J90mdmiBxrirI1MJJkTRyMBIX6FsPzC3AAAA[0mmaster
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (9a5315766bd26cd856be1e6a3a8ad581fbb41f67 → a37e08764dada6a1bcfcb25c6bca8cc010848617)
+Scheduled build for branch: master
+
+  1 branches were processed
+
+  Checking pull-requests...
+
+  Getting remote pull requests...
+
+  0 pull requests were processed
+
+Finished examining iPaoKung/Helloworld
+
+[Fri Oct 12 06:32:11 UTC 2018] Finished branch indexing. Indexing took 3.5 sec
+Finished: SUCCESS
